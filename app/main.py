@@ -3,7 +3,6 @@ from statistics import mean, pstdev
 from fastapi import FastAPI
 from pydantic import BaseModel, Field
 
-
 app = FastAPI(
     title="Engineering Data API",
     description="A small API for validating and analysing engineering measurements.",
