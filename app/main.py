@@ -1,6 +1,7 @@
+from statistics import mean, pstdev
+
 from fastapi import FastAPI
 from pydantic import BaseModel, Field
-from statistics import mean, pstdev
 
 
 app = FastAPI(
