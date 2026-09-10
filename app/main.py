@@ -47,7 +47,7 @@ def analyse_measurements(batch: MeasurementBatch) -> MeasurementSummary:
     average = mean(batch.values)
     deviation = pstdev(batch.values)
 
-    within_tolerance = None
+    within_tolerance: bool | None = None
 
     if batch.reference is not None and batch.tolerance is not None:
         within_tolerance = all(
