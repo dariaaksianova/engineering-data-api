@@ -2,11 +2,11 @@
 
 [![CI](https://github.com/dariaaksianova/engineering-data-api/actions/workflows/ci.yml/badge.svg)](https://github.com/dariaaksianova/engineering-data-api/actions/workflows/ci.yml)
 
-A compact FastAPI service for validating and analysing engineering measurement data.
+A FastAPI service that helps to validate and analyse engineering measurement data.
 
 The project demonstrates API development, typed data validation, statistical analysis, automated testing, containerisation and continuous integration.
 
-## Features
+## Capabilities 
 
 - REST API built with FastAPI
 - Typed request and response models
@@ -20,7 +20,7 @@ The project demonstrates API development, typed data validation, statistical ana
 - Docker support
 - GitHub Actions continuous integration
 
-## Example request
+## Sample request
 
 `POST /measurements/analyse`
 
@@ -34,7 +34,7 @@ The project demonstrates API development, typed data validation, statistical ana
 }
 ```
 
-## Example response
+## Sample response
 
 ```json
 {
@@ -49,7 +49,7 @@ The project demonstrates API development, typed data validation, statistical ana
 }
 ```
 
-## Run locally
+## Local run
 
 Create and activate a virtual environment, then install the dependencies:
 
@@ -75,7 +75,7 @@ A simple health check is available at:
 http://127.0.0.1:8000/health
 ```
 
-## Run tests
+## Tests 
 
 ```bash
 pytest
@@ -115,7 +115,7 @@ The API will then be available at:
 http://localhost:8000
 ```
 
-## Project structure
+## Structure
 
 ```text
 engineering-data-api/
