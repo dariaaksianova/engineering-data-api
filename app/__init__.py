@@ -1,1 +1,1 @@
-.
+"""Engineering Data API application package."""
